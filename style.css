@@ -13,6 +13,7 @@ body{
 .navbar img{
     width: 256px;
     height: 128px;
+    text-align: center;
 }
 .navbar-brand span {
     font-size: 1.1rem;
