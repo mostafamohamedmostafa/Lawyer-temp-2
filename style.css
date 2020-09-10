@@ -326,7 +326,8 @@ font-weight: bold;
 
 .team p {
     color: #08526d;
-    font-size: 1.1rem;
+    font-size: large;
+    font-weight: bold;
 }
 
 
@@ -334,10 +335,10 @@ font-weight: bold;
 .card:hover {
     box-shadow: 5px 5px 15px 5px #000000;
     border-radius: 5%;
-    -webkit-border-radius: 5%;
-    -moz-border-radius: 5%;
-    -ms-border-radius: 5%;
-    -o-border-radius: 5%;
+    -webkit-border-radius:;
+    -moz-border-radius:;
+    -ms-border-radius:;
+    -o-border-radius:;
     transition: ease-in-out 2s all;
     -webkit-transition: ease-in-out 2s all;
     -moz-transition: ease-in-out 2s all;
@@ -484,8 +485,9 @@ font-weight: bold;
 
 .contact .section-title p {
     text-align: center;
-    color: black;
+    color: #08526d;
     font-size: 1.4rem;
+    font-weight: bold;
 
 
 }
@@ -494,8 +496,10 @@ font-weight: bold;
 }
 
 .info h4 {
-    color: crimson;
+    color: #2696be;
     font-size: 1.1rem;
+    font-weight: bold;
+
 
 }
 .info ul{
@@ -522,96 +526,3 @@ font-weight: bold;
 /*<!--End Contact us  Section -->*/
 
 
-/*<!--Start of Footer Section -->*/
-.footer {
-    padding: 0 40px;
-}
-
-.site-info span {
-    font-size: 2rem;
-}
-
-.site-info span:first-of-type {
-    color: #08526d;
-    font-weight: bold;
-}
-
-.site-info span:last-of-type {
-
-    color: #ed242b;
-}
-
-.site-info a {
-    color: #08526d;
-    font-weight: bold;
-}
-
-.helpful-links h4 {
-    text-align: center;
-}
-
-.helpful-links ul li {
-    padding-bottom: 20px;
-}
-
-.helpful-links li a:hover {
-    text-decoration: none;
-    color: #ed1d24;
-    font-weight: bold;
-    transition: ease-in-out 2s all;
-}
-
-.contact-us ul li {
-    padding-bottom: 25px;
-    color: black;
-    font-style: italic;
-    font-weight: bold;
-}
-
-.contact-us i {
-    color: aqua;
-    font-size: 1.5rem;
-}
-
-.contact-us ul li:hover {
-    color: #08526d;
-    transform: scale(1.1);
-    border: #ed1d24 1px solid;
-}
-
-
-/*<!--End Footer Section -->*/
-
-.copy-right i {
-    font-size: 1.2rem;
-    margin: 15px;
-}
-
-.copy-right h6 {
-    animation: shadow-wave 2s ease infinite;
-    -webkit-animation: shadow-wave 2s ease infinite;
-}
-
-.copy-right i:hover {
-    transform: scale(2);
-    -webkit-transform: scale(2);
-    -moz-transform: scale(2);
-    -ms-transform: scale(2);
-    -o-transform: scale(2);
-    color: #ed1d24;
-    transition: all ease-in-out 3s;
-    -webkit-transition: ;
-    -moz-transition: ;
-    -ms-transition: ;
-    -o-transition: ;
-    animation: shadow-wave 2s ease infinite;
-    -webkit-animation: shadow-wave 2s ease infinite;
-}
-
-/*<!--Start Copy rights Section -->*/
-
-
-
-
-
-/*<!--End Copy rights Section -->*/
