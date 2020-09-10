@@ -41,7 +41,7 @@ body{
 
 .navbar-nav .nav-link {
     font-size: 16px;
-    margin-left: 20px;
+    margin: 0.01%;
     color: blue !important;
     font-weight: bold;
 
@@ -54,10 +54,10 @@ body{
     -webkit-animation:   2s ease infinite all;
     border: #000000 2px solid;
     border-radius: 25%;
-    -webkit-border-radius: 25%;
-    -moz-border-radius: 25%;
-    -ms-border-radius: 25%;
-    -o-border-radius: 25%;
+    -webkit-border-radius:;
+    -moz-border-radius:;
+    -ms-border-radius:;
+    -o-border-radius:;
 }
 .nav-item{
     text-align:center;
@@ -74,10 +74,10 @@ body{
     background-color: blue;
     color: white;
     border-radius: 20%;
-    -webkit-border-radius: 20%;
-    -moz-border-radius: 20%;
-    -ms-border-radius: 20%;
-    -o-border-radius: 20%;
+    -webkit-border-radius:;
+    -moz-border-radius:;
+    -ms-border-radius:;
+    -o-border-radius:;
     border-color: tomato;
 }
 
@@ -228,6 +228,7 @@ body{
 
 .services-section .service-header p {
     color:#08526d ;
+    font-weight: bold;
 
 }
 
@@ -246,15 +247,15 @@ body{
 .serivces-box:hover {
     box-shadow: 5px 5px 15px 5px #000000;
     border-radius: 5%;
-    -webkit-border-radius: 5%;
-    -moz-border-radius: 5%;
-    -ms-border-radius: 5%;
-    -o-border-radius: 5%;
+    -webkit-border-radius:;
+    -moz-border-radius:;
+    -ms-border-radius:;
+    -o-border-radius:;
     transition: ease-in-out 8s all;
-    -webkit-transition:;
-    -moz-transition:;
-    -ms-transition:;
-    -o-transition:;
+    -webkit-transition: ease-in-out 8s all;
+    -moz-transition: ease-in-out 8s all;
+    -ms-transition: ease-in-out 8s all;
+    -o-transition: ease-in-out 8s all;
 }
 
 /*<!--End Serivce Section -->*/
@@ -275,6 +276,7 @@ body{
 
 .section-title p{
 color: #08526d;
+font-weight: bold;
 }
 
 
@@ -283,6 +285,26 @@ color: #08526d;
     color: black;
 
 }
+
+/*<!--Start Law Questions Section -->*/
+
+.law-question h2{
+    text-align: center;
+    color: black;
+}
+.law-question p{
+    text-align: center;
+    color: #08526d;
+    font-weight: bold;
+}
+
+.law-question .card-header button{
+    font-weight: bold ;
+    font-size: large ;
+}
+/*<!--End Law Questions Section -->*/
+
+
 
 
 /*<!--Start Team Section -->*/
