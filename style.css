@@ -11,7 +11,7 @@ body{font-family: 'Philosopher', sans-serif;}
     height: 128px;
 }
 .navbar-brand span {
-    font-size: 1.5rem;
+    font-size: 1.1rem;
 }
 
 .navbar-brand span:first-child {
@@ -37,21 +37,25 @@ body{font-family: 'Philosopher', sans-serif;}
 .navbar-nav .nav-link {
     font-size: 16px;
     margin-left: 20px;
-    color: #08526d;
+    color: blue !important;
     font-weight: bold;
 
 }
 
+
 .navbar-nav .nav-link:hover {
-    color: green;
-    animation:   2s ease infinite;
-    -webkit-animation:   2s ease-in-out infinite;
+    color: black !important;
+    animation:   2s ease infinite all;
+    -webkit-animation:   2s ease infinite all;
     border: #000000 2px solid;
-    border-radius: 15%;
-    -webkit-border-radius: 15%;
-    -moz-border-radius: 15%;
-    -ms-border-radius: 15%;
-    -o-border-radius: 15%;
+    border-radius: 25%;
+    -webkit-border-radius: 25%;
+    -moz-border-radius: 25%;
+    -ms-border-radius: 25%;
+    -o-border-radius: 25%;
+}
+.nav-item{
+    text-align:center;
 }
 
 .nav-item .btn-style {
@@ -87,22 +91,14 @@ body{font-family: 'Philosopher', sans-serif;}
     font-size: 2.4rem;
 }
 
-.intro-section h2::first-letter {
- font-style: italic;
-    color: blue;
 
-}
 
 .intro-section p {
     font-weight: bold;
-    color: gray;
+    color: #08526d;
     font-size: 2rem;
 }
-.intro-section p::first-letter {
-    font-style: italic;
-       color: blue;
-   
-   }
+
  
 
 .intro-section .animated {
@@ -166,12 +162,12 @@ body{font-family: 'Philosopher', sans-serif;}
 
 }
 .about-section h3 {
-    color: #5f687b;
+    color: black;
     font-weight: bold;
 }
 
 .about-section p {
-    color: #444444;
+    color:#08526d;
     font-weight: bold;
 }
 
@@ -181,6 +177,10 @@ body{font-family: 'Philosopher', sans-serif;}
  
 }
 
+.dark-font{
+    color: #2696be ;
+    font-weight: bold;
+}
 .list-unstyled li i {
     color:#2696be;
 }
@@ -221,6 +221,11 @@ body{font-family: 'Philosopher', sans-serif;}
 
 }
 
+.services-section .service-header p {
+    color:#08526d ;
+
+}
+
 .serivces-box {
     background-color: white;
     padding: 40px;
@@ -235,16 +240,16 @@ body{font-family: 'Philosopher', sans-serif;}
 
 .serivces-box:hover {
     box-shadow: 5px 5px 15px 5px #000000;
-    border-radius: 10%;
-    -webkit-border-radius: 10%;
-    -moz-border-radius: 10%;
-    -ms-border-radius: 10%;
-    -o-border-radius: 10%;
-    transition: ease-in-out 2s all;
-    -webkit-transition: ease-in-out 2s all;
-    -moz-transition: ease-in-out 2s all;
-    -ms-transition: ease-in-out 2s all;
-    -o-transition: ease-in-out 2s all;
+    border-radius: 5%;
+    -webkit-border-radius: 5%;
+    -moz-border-radius: 5%;
+    -ms-border-radius: 5%;
+    -o-border-radius: 5%;
+    transition: ease-in-out 8s all;
+    -webkit-transition:;
+    -moz-transition:;
+    -ms-transition:;
+    -o-transition:;
     animation: up-down 2s ease-in-out infinite alternate-reverse both;
     -webkit-animation: up-down 2s ease-in-out infinite alternate-reverse both;
 }
@@ -265,23 +270,16 @@ body{font-family: 'Philosopher', sans-serif;}
     color: black;
 }
 
-.testimonials h2::first-letter {
-
-    color: blue;
+.section-title p{
+color: #08526d;
 }
+
+
 
 .testimonials-section .testimonials-header h2 {
     color: black;
 
 }
-
-.testimonials-box h4:first-letter {
-    color: blue;
-
-}
-
-
-
 
 
 /*<!--Start Team Section -->*/
@@ -299,12 +297,10 @@ body{font-family: 'Philosopher', sans-serif;}
     color: black;
  }
 
-.team h3::first-letter {
-    color: blue;
-}
+
 
 .team p {
-    color: #72757d;
+    color: #08526d;
     font-size: 1.1rem;
 }
 
@@ -312,11 +308,11 @@ body{font-family: 'Philosopher', sans-serif;}
 
 .card:hover {
     box-shadow: 5px 5px 15px 5px #000000;
-    border-radius: 10%;
-    -webkit-border-radius:;
-    -moz-border-radius:;
-    -ms-border-radius:;
-    -o-border-radius:;
+    border-radius: 5%;
+    -webkit-border-radius: 5%;
+    -moz-border-radius: 5%;
+    -ms-border-radius: 5%;
+    -o-border-radius: 5%;
     transition: ease-in-out 2s all;
     -webkit-transition: ease-in-out 2s all;
     -moz-transition: ease-in-out 2s all;
@@ -418,10 +414,8 @@ body{font-family: 'Philosopher', sans-serif;}
     font-style: italic;
 
 }
-.card h5::first-letter {
-   color: blue;
 
-}
+
 .card h6 {
     color: black;
     font-weight: bold;
