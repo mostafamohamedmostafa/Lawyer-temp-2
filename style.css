@@ -431,7 +431,13 @@ font-weight: bold;
  
 }
 
-
+.team .card img{
+    border-radius: 45%;
+    -webkit-border-radius: 45%;
+    -moz-border-radius: 45%;
+    -ms-border-radius: 45%;
+    -o-border-radius: 45%;
+}
 .card h5 {
     color: black;
     font-weight: bold;
