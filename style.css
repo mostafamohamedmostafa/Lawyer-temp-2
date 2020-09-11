@@ -257,6 +257,9 @@ body{
     -ms-transition: ease-in-out 8s all;
     -o-transition: ease-in-out 8s all;
 }
+.more-service-btn{
+    margin: 2%;
+}
 
 /*<!--End Serivce Section -->*/
 
@@ -278,8 +281,6 @@ body{
 color: #08526d;
 font-weight: bold;
 }
-
-
 
 .testimonials-section .testimonials-header h2 {
     color: black;
